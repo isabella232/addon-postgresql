@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<addonManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xmlns="http://schemas.apprenda.com/AddonManifest"
+               xsi:schemaLocation="http://schemas.apprenda.com/AddonManifest http://apprenda.com/schemas/platform/6.0/AddonManifest.xsd"
+               name="PostgreSQL"
+               manifestVersion="1"
+               version="9.5.3"
+               description="Provides PostgreSQL databases scoped to a development team."
+               deploymentNotes="This add-on assumes that you already have a PostgreSQL instnace running, configured with authentication, and one admin user.  The admin username and password are needed to create client databases."
+               developerHelp=""
+               vendor="Apprenda"
+               author="P. van Dorp">
+  <properties>
+    <property key="pgsqlServer" displayName="PostgreSQL Server" description="The server name of a PostgreSQL instance." value=""/>
+    <property key="pgsqlServerPort" displayName="PostgreSQL Server Port" description="The server port of a PostgreSQL instance." value=""/>
+    <property key="pgsqlAdminUser" displayName="PostgreSQL Admin User" description="The username of a PostgreSQL administrator." value=""/>
+    <property key="pgsqlAdminPassword" displayName="PostgreSQL Admin Password" description="The password of a PostgreSQL administrator." value=""/>
+  </properties>
+</addonManifest>
