@@ -14,6 +14,7 @@
   <properties>
     <property key="pgsqlServer" displayName="PostgreSQL Server" description="The server name of a PostgreSQL instance." value=""/>
     <property key="pgsqlServerPort" displayName="PostgreSQL Server Port" description="The server port of a PostgreSQL instance." value=""/>
+    <property key="pgsqlAdminDatabase" displayName="PostgreSQL Master Database" description="The master database of a PostgreSQL instance." value=""/>
     <property key="pgsqlAdminUser" displayName="PostgreSQL Admin User" description="The username of a PostgreSQL administrator." value=""/>
     <property key="pgsqlAdminPassword" displayName="PostgreSQL Admin Password" description="The password of a PostgreSQL administrator." value=""/>
   </properties>
